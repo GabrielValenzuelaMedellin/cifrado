@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Vigenére</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Cifrado Vigenére</h1>
+
+    <h2>Matriz</h2>
+    <div id="matriz-vigenere"></div>
+
+    <h2>Cifrar</h2>
+    <form id="cifrar-form">
+        <label for="mensaje-cifrar">Mensaje:</label>
+        <input type="text" id="mensaje-cifrar" name="mensaje" required>
+        <br>
+        <label for="clave-cifrar">Clave:</label>
+        <input type="text" id="clave-cifrar" name="clave" required>
+        <br>
+        <button type="submit">Cifrar</button>
+    </form>
+
+    <h3>Mensaje Cifrado:</h3>
+    <p id="resultado-cifrado"></p>
+
+    <h2>Descifrar</h2>
+    <form id="descifrar-form">
+        <label for="mensaje-descifrar">Mensaje:</label>
+        <input type="text" id="mensaje-descifrar" name="mensaje" required>
+        <br>
+        <label for="clave-descifrar">Clave:</label>
+        <input type="text" id="clave-descifrar" name="clave" required>
+        <br>
+        <button type="submit">Descifrar</button>
+    </form>
+
+    <h3>Mensaje Descifrado:</h3>
+    <p id="resultado-descifrado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

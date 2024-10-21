@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #EDEDED;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #D32F2F;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+    border-bottom: 2px solid #2C2C2C;
+    padding-bottom: 10px;
+}
+
+form {
+    background-color: #2C2C2C;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #EDEDED;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #D32F2F;
+    border-radius: 4px;
+    background-color: #1F1F1F;
+    color: #EDEDED;
+}
+
+button {
+    background-color: #D32F2F;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #D32F2F;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2C2C2C;
+    color: #D32F2F;
+}
+
+tr:nth-child(even) {
+    background-color: #1F1F1F;
+}
